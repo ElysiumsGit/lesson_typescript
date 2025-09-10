@@ -41,3 +41,8 @@ const data2: string[] = ["1", "2", "3"];
 const data3: string[] | number[] = ["1", "2", "3"];
 const data4: (string | number)[] = [1, "2", "3"];
 const data5: any = [1, "2", "3", true];
+
+let seatAllotment: "aisle" | "middle" | "window"
+
+seatAllotment = "aisle";
+// seatAllotment = "crew";
